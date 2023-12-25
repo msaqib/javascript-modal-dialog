@@ -1,0 +1,24 @@
+.modal {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 30rem;
+    height: 5rem;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-row {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.btn-row button{
+    margin-right: 1rem;
+    padding: 0.2rem 0.5rem;
+}
